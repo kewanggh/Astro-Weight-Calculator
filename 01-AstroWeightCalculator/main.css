@@ -1,0 +1,67 @@
+header {
+	font-size: 4em;
+	padding-top: 30px;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+body{
+	font: sans-serif;
+}
+#inputContainer {
+	display: inline-block;
+	width: 37%;
+	float: left;
+	margin-right: 2%;
+}
+
+label {
+	font-size: 1em;
+	font-weight: bold;
+	display: block;
+}
+
+input {
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#selectContainer {
+	width: 37%;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 2%
+}
+select {
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+#calculate {
+	border-radius: 5px;
+	background-color: #4d94ff;
+	color: white;
+	padding: 5px 30px;
+	width: 15%;
+	display: inline-block;
+	min-width: 100px;
+}
+span {
+	background-color: #d3d3d3;
+	font-size: 1em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	display: block;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
